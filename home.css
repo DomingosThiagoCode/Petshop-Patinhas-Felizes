@@ -67,13 +67,26 @@ body{
     
 }
 
+
 #slider{
-    height: 280px;
-    width:805px;
-    background-color: #319182;
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+    border-radius: 0.5rem;
+     
+    height: 330px;
+    width:855px;
     border-radius: 25px;
     margin: auto;
+    
 }
+#slider img{
+    flex: 1 0 100%;
+}
+
 
 /*Body 2*/
 #corpo_2{
