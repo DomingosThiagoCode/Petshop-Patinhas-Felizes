@@ -51,15 +51,62 @@ header a:hover{
 
 #container{
     background-color: #319182;
-    width: 450px;
+    width: 600px;
     height: 500px;
     padding: 20px;
     margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 20px;
-    text-align: center ;
+    color: #FFF;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.44);
 }
+
+#formulario{
+    font-size: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item{
+    margin: 30px;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item input{
+    margin: 5px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 80%;
+}
+
+#enviar{
+    text-decoration: none;
+    font-size: 25px;
+    height: 58px;
+    width: 216px;
+    background-color: white;
+    border-radius: 15px;
+    color: #40a798;
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#enviar:hover{
+    background-color: #FF5C00;
+    color: white;
+}
+
 
 /*Footer*/
 
