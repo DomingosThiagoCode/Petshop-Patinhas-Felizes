@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <script src="login.js"></script>
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
@@ -25,11 +26,28 @@
 
 
     <div id="container">
-        <h1>AQUI VAI O LOGIN</h1>
+        <h1>TRAGA LOGO SEU PET PARA O MUNDO DAS MARAVILHAS</h1>
+        <form id="formulario">
+            <div class="item">
+                <label for="campo_nome">Nome: </label>
+                <input id="campo_nome" type="text" placeholder="Digite seu nome" required>
+            </div>
+            <div class="item">
+                <label for="campo_email">Email: </label>
+                <input id="campo_email" type="email" placeholder="Ex: SeuPetFeliz@gmail.com" required> 
+            </div>
+            <div class="item">
+                <label for="campo_telefone">Telefone: </label>
+                <input id="campo_telefone" type="text" placeholder="Ex:99 99999-9999" required>
+            </div>
+            <div class="item">
+                <input id="enviar" type="submit" value="Cadastre-se">
+            </div>
+        </form>
     </div>
 
 
-        <footer>
+    <footer>
         <h1>REDES SOCIAIS</h1>
         <img src="src\img\icons8-whatsapp-48.png" alt="logo_whatsapp" id="icons">
         <img src="src\img\icons8-facebook-novo-48.png" alt="logo_facebook" id="icons">
